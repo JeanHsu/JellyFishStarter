@@ -3,14 +3,14 @@
     <exec>
       <option name="COMMAND" value="$ModuleSdkPath$/platform-tools/adb" />
       <option name="PARAMETERS" value="tcpip 8080" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
   <tool name="Connect to ADB over WiFi Direct" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="$ModuleSdkPath$/platform-tools/adb" />
       <option name="PARAMETERS" value="connect 192.168.49.1:8080" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
   </tool>
 </toolSet>
